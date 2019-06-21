@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  color: #FFFFFF;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/*settings*/
+@import "fonts";
+@import "var";
+
+/*over use blocks*/
+@import "header";
+@import "footer";
+
+/*pages*/
+
+/*media*/
+@import "media/1199";
+@import "media/991";
+@import "media/767";
+@import "media/575";
