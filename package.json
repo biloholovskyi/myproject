@@ -9,8 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-preset-latest": "^6.24.1",
     "browser-sync": "^2.18.13",
+    "del": "^5.1.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^3.9.0",
     "gulp-delete-directory-files": "0.0.2",
