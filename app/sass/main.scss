@@ -44,3 +44,10 @@ input {
 @import "media/991";
 @import "media/767";
 @import "media/575";
+
+body {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

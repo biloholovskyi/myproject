@@ -1,3 +1,5 @@
+import 'normalize.css';
+
 $(document).ready(function(){
 
 });
