@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07d6cca-0eea-4863-9b78-d17cede20474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/buildjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/buildjs/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -49,6 +44,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +72,38 @@
       <workItem from="1569869307185" duration="2303000" />
       <workItem from="1571140673536" duration="264000" />
       <workItem from="1571514003380" duration="2937000" />
-      <workItem from="1571517685792" duration="1949000" />
+      <workItem from="1571517685792" duration="2956000" />
+      <workItem from="1571758135636" duration="1322000" />
+      <workItem from="1571910411271" duration="460000" />
+      <workItem from="1571932653559" duration="2951000" />
+      <workItem from="1572079881322" duration="7793000" />
+      <workItem from="1572249186445" duration="860000" />
+      <workItem from="1572601589586" duration="754000" />
+      <workItem from="1573622138517" duration="9421000" />
+      <workItem from="1573715322861" duration="10789000" />
+      <workItem from="1573892914179" duration="13793000" />
+      <workItem from="1574068514237" duration="1105000" />
+      <workItem from="1574333464600" duration="5587000" />
+      <workItem from="1574366627867" duration="21000" />
+      <workItem from="1574407608878" duration="5798000" />
+      <workItem from="1574676143591" duration="282000" />
+      <workItem from="1574706273296" duration="179000" />
+      <workItem from="1574857090564" duration="3843000" />
+      <workItem from="1575018242632" duration="6430000" />
+      <workItem from="1575044900780" duration="11992000" />
+      <workItem from="1575115442743" duration="505000" />
+      <workItem from="1575268436111" duration="8510000" />
+      <workItem from="1576312867059" duration="1733000" />
+      <workItem from="1576358347015" duration="41000" />
+      <workItem from="1576574687113" duration="255000" />
+      <workItem from="1579230733270" duration="3252000" />
+      <workItem from="1579272878775" duration="1663000" />
+      <workItem from="1579353588848" duration="503000" />
+      <workItem from="1581280226782" duration="295000" />
+      <workItem from="1581310593826" duration="99000" />
+      <workItem from="1581318476781" duration="2363000" />
+      <workItem from="1581497957665" duration="599000" />
+      <workItem from="1582878968726" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="media directory">
       <created>1571140761534</created>
@@ -92,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571140901270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new version + webpack">
+      <created>1571519729417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571519729417</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new version + webpack clear">
+      <created>1571519759212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571519759212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +154,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="media directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="media directory" />
+    <MESSAGE value="new version + webpack" />
+    <MESSAGE value="new version + webpack clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version + webpack clear" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;9207bd5a-56d1-43ab-b396-149ce261c2a5&gt;/motodom.store/public_html/wp-content/themes/motodom/index.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

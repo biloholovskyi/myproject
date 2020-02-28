@@ -33,7 +33,7 @@ gulp.task('default', function() {
         return gulp.src("app/sass/**/*.scss")
           .pipe(sass())
           .pipe(autoprefixer({
-            browserslist: ['> 0.1%'],
+            overrideBrowserslist: ['> 0.1%'],
             cascade: false
           }))
           .pipe(cleanCSS({
