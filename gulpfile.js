@@ -26,9 +26,14 @@ const webConfig = {
 };
 
 gulp.task('default', function() {
+  // browserSync.init({
+  //   proxy: "http://localhost:8888/myproject/app",
+  // });
   browserSync.init({
-    proxy: "http://localhost:8888/myproject/app",
-  });
+        server: {
+            baseDir: "./app"
+        }
+    });
     gulp.watch("app/sass/**/*.scss", function () {
         return gulp.src("app/sass/**/*.scss")
           .pipe(sass())
