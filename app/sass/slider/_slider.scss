@@ -1,0 +1,40 @@
+.home {
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+
+  .slider {
+    height: 100vh;
+    width: 100%;
+    padding: 100px;
+
+    &__nav {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .slider__count {
+        display: flex;
+        margin: 0 8px;
+      }
+      
+      .prev,
+      .next {
+        padding: 10px;
+        
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .item {
+      display: none;
+      height: 100%;
+
+      &--active {
+        display: block;
+      }
+    }
+  }
+}

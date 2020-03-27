@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07d6cca-0eea-4863-9b78-d17cede20474" name="Default Changelist" comment="">
+    <list default="true" id="a07d6cca-0eea-4863-9b78-d17cede20474" name="Default Changelist" comment="ща">
+      <change afterPath="$PROJECT_DIR$/app/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/slider/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/slider/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/buildjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/buildjs/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.scss" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +36,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1RZKiYcl4eo3o301dNHZPkXNtjR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -44,19 +52,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,7 +99,9 @@
       <workItem from="1581310593826" duration="99000" />
       <workItem from="1581318476781" duration="2363000" />
       <workItem from="1581497957665" duration="599000" />
-      <workItem from="1582878968726" duration="145000" />
+      <workItem from="1582878968726" duration="822000" />
+      <workItem from="1582965813309" duration="12349000" />
+      <workItem from="1585306094545" duration="2003000" />
     </task>
     <task id="LOCAL-00001" summary="media directory">
       <created>1571140761534</created>
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571519759212</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new gulp version">
+      <created>1582879506506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582879506506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +161,30 @@
     <MESSAGE value="media directory" />
     <MESSAGE value="new version + webpack" />
     <MESSAGE value="new version + webpack clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="new version + webpack clear" />
+    <MESSAGE value="new gulp version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new gulp version" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1585306246372">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246372" />
+    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1585306246370">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.center/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246370" />
+    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1585306246368">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.left/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246368" />
+    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1585306246371">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.right/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246371" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1585307400868">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585307400868" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
