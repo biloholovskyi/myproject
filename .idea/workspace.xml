@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07d6cca-0eea-4863-9b78-d17cede20474" name="Default Changelist" comment="ща">
-      <change afterPath="$PROJECT_DIR$/app/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/slider/_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/slider/index.html" afterDir="false" />
+    <list default="true" id="a07d6cca-0eea-4863-9b78-d17cede20474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jquery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/myproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/layout/main.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/modules/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/modules/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/pages/tesst.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/buildjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/buildjs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,10 +46,10 @@
   <component name="ProjectId" id="1RZKiYcl4eo3o301dNHZPkXNtjR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -52,7 +60,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,7 +109,12 @@
       <workItem from="1581497957665" duration="599000" />
       <workItem from="1582878968726" duration="822000" />
       <workItem from="1582965813309" duration="12349000" />
-      <workItem from="1585306094545" duration="2003000" />
+      <workItem from="1585306094545" duration="2226000" />
+      <workItem from="1585767338405" duration="31000" />
+      <workItem from="1586807439624" duration="1398000" />
+      <workItem from="1587022915846" duration="628000" />
+      <workItem from="1587024610723" duration="180000" />
+      <workItem from="1587024815917" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="media directory">
       <created>1571140761534</created>
@@ -138,53 +151,79 @@
       <option name="project" value="LOCAL" />
       <updated>1582879506506</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="slider">
+      <created>1585308188127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585308188127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="media directory" />
     <MESSAGE value="new version + webpack" />
     <MESSAGE value="new version + webpack clear" />
     <MESSAGE value="new gulp version" />
-    <option name="LAST_COMMIT_MESSAGE" value="new gulp version" />
+    <MESSAGE value="slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1585306246372">
+    <state x="675" y="403" key="#Other_File_Types" timestamp="1587025042091">
+      <screen x="0" y="0" width="1680" height="1003" />
+    </state>
+    <state x="675" y="403" key="#Other_File_Types/1820.-745.1366.745/-100.-1057.1920.1057/0.0.1680.1003@0.0.1680.1003" timestamp="1587025042091" />
+    <state x="675" y="403" key="#Other_File_Types/1820.-768.1366.768/-100.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587024832483" />
+    <state x="421" y="40" key="CommitChangelistDialog2" timestamp="1585308187953">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="421" y="40" key="CommitChangelistDialog2/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585308187953" />
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1585349430984">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom/-110.-1057.1920.1010/0.23.1680.1027@0.23.1680.1027" timestamp="1585349430984" />
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246372" />
-    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1585306246370">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1585349430983">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.center/-110.-1057.1920.1010/0.23.1680.1027@0.23.1680.1027" timestamp="1585349430983" />
     <state width="1638" height="276" key="GridCell.Tab.0.center/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246370" />
-    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1585306246368">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1585349430982">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.left/-110.-1057.1920.1010/0.23.1680.1027@0.23.1680.1027" timestamp="1585349430982" />
     <state width="1638" height="276" key="GridCell.Tab.0.left/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246368" />
-    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1585306246371">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1585349430984">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1638" height="276" key="GridCell.Tab.0.right/-110.-1057.1920.1010/0.23.1680.1027@0.23.1680.1027" timestamp="1585349430984" />
     <state width="1638" height="276" key="GridCell.Tab.0.right/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585306246371" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1585307400868">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="341" y="157" key="SettingsEditor" timestamp="1587025069612">
+      <screen x="0" y="0" width="1680" height="1003" />
     </state>
     <state x="341" y="164" key="SettingsEditor/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585307400868" />
+    <state x="341" y="157" key="SettingsEditor/1820.-745.1366.745/-100.-1057.1920.1057/0.0.1680.1003@0.0.1680.1003" timestamp="1587025069612" />
+    <state x="341" y="164" key="SettingsEditor/1820.-768.1366.768/-100.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1587024850773" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1585308190496">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2/-110.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1585308190496" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
